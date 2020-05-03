@@ -14,11 +14,13 @@ body {
 }
 
 a {
-  color: rgb(185, 118, 31);
+  color: #ffffff;
+  transition: all 150ms ease;
+  font-weight: 300;
 }
 
 a:hover {
-  color: rgb(185, 118, 31);
+  color: #2a0707;
 }
 
 .shadow {
