@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8/qsV8ITyBIYSgMwdMW5NVWOJwir5UTtPJ+09r8xuIXBo/pl1aKWgkPhEl+I4kru+aSkLjFaMqGeGVIpGdtnQg==",
+  "success": true,
+  "projectFilePath": "/home/mcm/Desktop/develop/charts-angular-netcore/Backend.API/Backend.API.csproj",
+  "expectedPackageFiles": [
+    "/home/mcm/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
