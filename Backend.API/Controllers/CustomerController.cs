@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Backend.API.Controllers
 {
   [ApiController]
-  [Route("api/[controller]")]
+  [Route("/api/[controller]")]
   public class CustomerController : Controller
   {
     private readonly ApiContext _ctx;
