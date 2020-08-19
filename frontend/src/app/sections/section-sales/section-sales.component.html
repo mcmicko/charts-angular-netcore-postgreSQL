@@ -15,7 +15,11 @@
           <h5>Orders by Customer</h5>
         </div>
         <div class="card-body">
-          <app-pie-chart></app-pie-chart>
+          <app-pie-chart
+            *ngIf="salesDataByCustomer"
+            [inputData]="salesDataByCustomer"
+            [limit]="3"
+          ></app-pie-chart>
         </div>
       </div>
 
@@ -24,7 +28,11 @@
           <h5>Oreders by State</h5>
         </div>
         <div class="card-body">
-          <app-pie-chart></app-pie-chart>
+          <app-pie-chart
+            *ngIf="salesDataByState"
+            [inputData]="salesDataByState"
+            [limit]="5"
+          ></app-pie-chart>
         </div>
       </div>
     </div>
