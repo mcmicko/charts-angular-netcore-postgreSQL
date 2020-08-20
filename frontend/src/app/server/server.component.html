@@ -6,10 +6,10 @@
     {{ serverInput.name }}
   </div>
   <div class="card-body">
-    {{ serverInput.isOnline }}
+    {{ serverStatus }}
   </div>
   <button
-    (click)="toggleStatus(serverInput.isOnline)"
+    (click)="sendServerAction(serverInput.isOnline)"
     class="btn btn-default action"
   >
     {{ buttonText }}

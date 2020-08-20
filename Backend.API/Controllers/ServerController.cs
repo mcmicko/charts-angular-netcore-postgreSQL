@@ -31,7 +31,7 @@ namespace Backend.API.Controllers
       if (server == null)
         return NotFound();
 
-      if (msg.Payload == "c")
+      if (msg.Payload == "active")
       {
         server.IsOnline = true;
         _ctx.SaveChanges();
